@@ -7,13 +7,13 @@
       <el-submenu index="2">
         <template slot="title">统计</template>
         <el-menu-item index="2-1">
-          <router-link to="/count">折线图</router-link>
+          <router-link to="/count/lineBar">折线图</router-link>
         </el-menu-item>
         <el-menu-item index="2-2">
-          <router-link to="/count">饼图</router-link>
+          <router-link to="/count/pie">饼图</router-link>
         </el-menu-item>
         <el-menu-item index="2-3">
-          <router-link to="/count">柱状图</router-link>
+          <router-link to="/count/chineseMap">柱状图</router-link>
         </el-menu-item>
       </el-submenu>
       <el-menu-item index="3">

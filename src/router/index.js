@@ -6,6 +6,9 @@ import Map from '@/components/Map'
 import Count from '@/components/Count'
 import Search from '@/components/Search'
 import About from '@/components/About'
+import LineBar from '@/components/echarts/LineBar'
+import Pie from '@/components/echarts/Pie'
+import ChineseMap from '@/components/echarts/ChineseMap'
 
 Vue.use(Router)
 Vue.use(ElementUI)
@@ -23,8 +26,22 @@ export default new Router({
     },
     {
       path: '/count',
-      name: 'Count',
       component: Count
+    },
+    {
+      path: '/count/lineBar',
+      name: 'LineBar',
+      component: LineBar
+    },
+    {
+      path: '/count/pie',
+      name: 'Pie',
+      component: Pie
+    },
+    {
+      path: '/count/chineseMap',
+      name: 'ChineseMap',
+      component: ChineseMap
     },
     {
       path: '/search',

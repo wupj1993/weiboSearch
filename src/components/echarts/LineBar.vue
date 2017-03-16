@@ -22,7 +22,7 @@
       return {
         polar: {
           title: {
-            text: '极坐标双数值轴'
+            text: 'LineBar'
           },
           legend: {
             data: ['line']
