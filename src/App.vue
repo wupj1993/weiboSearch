@@ -20,7 +20,7 @@
         <router-link to="/search">搜索</router-link>
       </el-menu-item>
       <el-menu-item index="4">
-        <router-link to="/map">地图分布</router-link>
+        <router-link to="/count/chineseMap">地图分布</router-link>
       </el-menu-item>
       <el-menu-item index="5">
         <router-link to="/about">关于</router-link>
