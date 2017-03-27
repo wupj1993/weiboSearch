@@ -5,7 +5,9 @@
 </template>
 <style>
   .echarts {
-    height: 300px;
+    margin: 0 auto;
+    width: 90% !important;
+    height: 400px;
   }
 </style>
 <script>

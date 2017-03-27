@@ -9,6 +9,7 @@ import About from '@/components/About'
 import LineBar from '@/components/echarts/LineBar'
 import Pie from '@/components/echarts/Pie'
 import ChineseMap from '@/components/echarts/ChineseMap'
+import ProvinceMap from '@/components/echarts/ProvinceMap'
 
 Vue.use(Router)
 Vue.use(ElementUI)
@@ -37,6 +38,11 @@ export default new Router({
       path: '/count/pie',
       name: 'Pie',
       component: Pie
+    },
+    {
+      path: '/count/province',
+      name: 'ProvinceMap',
+      component: ProvinceMap
     },
     {
       path: '/count/chineseMap',

@@ -15,6 +15,9 @@
         <el-menu-item index="2-3">
           <router-link to="/count/chineseMap">柱状图</router-link>
         </el-menu-item>
+        <el-menu-item index="2-3">
+          <router-link to="/count/province">省地图</router-link>
+        </el-menu-item>
       </el-submenu>
       <el-menu-item index="3">
         <router-link to="/search">搜索</router-link>

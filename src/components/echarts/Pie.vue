@@ -4,7 +4,11 @@
   </div>
 </template>
 <style>
-
+  .echarts {
+    margin: 0 auto;
+    width: 90% !important;
+    height: 400px;
+  }
 </style>
 <script>
   import 'echarts/theme/dark'
